@@ -1,0 +1,15 @@
+#: import MapView kivy_garden.mapview.MapView
+
+<TreeMap>:
+    lat: 45.418419
+    lon: 9.098049
+    zoom: 15
+    double_tap_zoom: False
+    on_touch_down: root.on_map_touch_down(*args)
+    MapMarkerPopup:
+        lat: 45.3
+        lon: 9
+        Button:
+            text: "Tree: \n Qty: "
+            on_release:
+                print("Hey")

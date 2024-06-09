@@ -1,0 +1,3 @@
+add openssl as a requirement:
+
+requirements = python3,kivy,kivy_garden.mapview,openssl,requests
